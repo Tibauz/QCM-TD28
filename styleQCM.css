@@ -1,0 +1,63 @@
+body {
+    color: black;
+    font-family: roboto;
+    font-size: 20px;
+    text-align: center;
+    background-color: white}
+#b {
+    background-color: white;
+    color: white;}
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 75px;}
+h2 {
+    font-size: 50px;
+    text-align: center;}
+p {font-size: 25px;}
+button {
+    font-size: 40px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor: pointer;}
+.rate {
+    background-color: red;
+    color: whitesmoke;}
+.bon {
+    background-color: chartreuse;}
+#aide {
+    background-color: cornflowerblue;
+    color: white;}
+#aide:hover {
+    background-color: cornsilk;
+    color: black;}
+#paccueil {
+    font-size: 35px;
+    text-align: center;
+    font-family: roboto;}
+a {color: lightseagreen}
+a:hover {color: blueviolet}
+#diva {
+    width: 600px;
+    height: 150px;
+    margin: 0 auto;
+    cursor: wait;
+    border: 5px solid white;}
+#troll {
+    cursor: progress;}
+footer {
+    text-align: left;
+    font-family: roboto;
+    bottom : 0;
+    width: auto;
+    position: fixed;
+    font-size: 20px;}
+#footer{font-size: 20px;}
+#trolla{font-size: 20px;}
+code {
+    font-size: xx-large;
+    text-align: left;
+    cursor: progress;}
+.deuxcol {column-count: 2;}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>QCM du fun - Q1</title>
+        <link rel="stylesheet" href="styleQCM.css">
+        <link rel="icon" type="image/png" href="python.ico"/>
+    </head>
+    <body>
+        <h1>Question 1 : un peu de calculs.</h1>
+        <h2>Soit le code suivant en Python, quelle est la <u>valeur de d</u> ?</h2>
+        <code>a = 2<br>b = 5<br>c = a ** b<br>d = c % b</code><br><br><br>
+        <button onclick="R1()" id="aa">d = 0</button>
+        <button onclick="R2()" id="ab">d = 2</button> <!bonne réponse>
+        <button onclick="R3()" id="ac">d = 6.4</button>
+        <button onclick="A1()" id="aide">Besoin d'aide ?</button>
+    </body>
+    <footer>
+        <p>Vous pouvez revenir à 
+        <a href="indexQCM.html">l'accueil</a>
+        et aller à la question 
+        <a href="Q2.html">suivante</a>. // Accéder au <a href="sommaire.html">sommaire</a>.<br>
+        Mais aussi mettre la page en 
+        <button onclick="noir()" id="footer">noir</button>
+        , en 
+        <button onclick="blanc()" id="footer">blanc</button>
+        ou bien choisir une couleur (en anglais): <input type="text" id="Couleur">
+        <button onclick="couleur()" id="footer"><b>✓</b></button>.</p>
+    </footer>
+    <script src="Q1.js"></script>
+    <script src="scriptQCM.js"></script>
+</html>
