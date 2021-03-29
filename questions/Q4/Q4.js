@@ -17,7 +17,7 @@ function R1() {
 function R2() {
     document.querySelector("#db").classList.add("bon")
     if(confirm("On observe que si A = 1 ou que B = 0, alors S = 1. C'est donc une bonne réponse ! Voulez-vous accéder à la question suivante ?")) {
-        document.location.href=("Q5.html")
+        document.location.href=("../Q5/Q5.html")
     } else {}
 }
 
