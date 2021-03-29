@@ -5,7 +5,7 @@ function A1() {
 function R1() {
     document.querySelector("#ea").classList.add("bon")
     if(confirm("Hé oui, dans un fichier .csv, la première ligne permet de chercher plus aisément dans les valeurs et d'avoir une description de ces dernières quand on les trouve. Voulez-vous accéder à la question suivante ?")) {
-        document.location.href=("Q6.html")
+        document.location.href=("../Q6/Q6.html")
     } else {}
 }
 
