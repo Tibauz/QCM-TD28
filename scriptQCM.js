@@ -1,7 +1,7 @@
 function Q1() {
     if(confirm("Voulez vous vraiment entrer dans le QCM ???")){
         window.open("troll.html","_blank");
-        document.location.href=("Q1.html");
+        document.location.href=("questions/Q1/Q1.html");
     } else {}
 }
 
