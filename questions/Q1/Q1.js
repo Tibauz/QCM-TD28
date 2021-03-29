@@ -6,7 +6,7 @@ function R1() {
 function R2() {
     document.querySelector("#ab").classList.add("bon");
     if(confirm("Bien joué, c'est la bonne réponse ! Voulez-vous accéder à la question suivante ?")){
-        document.location.href=("Q2.html")
+        document.location.href=("../Q2/Q2.html")
     } else {}
 }
 
