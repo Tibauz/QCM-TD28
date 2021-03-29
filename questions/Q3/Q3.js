@@ -10,7 +10,7 @@ function R1() {
 function R2() {
     document.querySelector("#cb").classList.add("bon")
     if(confirm("C'est la bonne réponse ! On ne détaillera pas ici le processus de calcul mais sachez que ça rend possible les opérations avec des nombres relatifs en binaire. Voulez-vous accéder à la question suivante ?")) {
-        document.location.href=("Q4.html")
+        document.location.href=("../Q4/Q4.html")
     } else {}
 }
 
