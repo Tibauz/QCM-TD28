@@ -1,6 +1,6 @@
 body {
     color: black;
-    font-family: roboto;
+    font-family: "Roboto";
     font-size: 20px;
     text-align: center;
     background-color: white}
@@ -36,7 +36,7 @@ button {
 #paccueil {
     font-size: 35px;
     text-align: center;
-    font-family: roboto;}
+    font-family: "Roboto";}
 a {color: lightseagreen}
 a:hover {color: blueviolet}
 #diva {
@@ -49,7 +49,7 @@ a:hover {color: blueviolet}
     cursor: progress;}
 footer {
     text-align: left;
-    font-family: roboto;
+    font-family: "Roboto";
     bottom : 0;
     width: auto;
     position: fixed;
