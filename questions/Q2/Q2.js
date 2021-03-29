@@ -16,6 +16,6 @@ function R2() {
 function R3() {
     document.querySelector("#bc").classList.add("bon")
     if(confirm("Bien joué ! Arial est la police d'écriture principale de Microsoft et a été crée en 1982. Voulez-vous accéder à la question suivante ?")){
-        document.location.href=("Q3.html")
+        document.location.href=("../Q3/Q3.html")
     } else {}
 }
